@@ -9,7 +9,8 @@ export function validate(raw){
  const arr=(v,label,max)=>{if(!Array.isArray(v)||v.length>max)fail(`${label}: 최대 ${max}개 배열이 필요합니다.`);return v};
  const s=raw.settings;if(!s)fail('settings가 필요합니다.');const settings={name:str(s.name,'이름',30),dailyGoal:num(s.dailyGoal,'일일 목표',1,180)};
  const seen=new Set();const uid=(v)=>{const id=str(v,'ID',70);if(!/^[a-zA-Z0-9_-]+$/.test(id)||seen.has(id))fail('ID는 고유한 영문·숫자·하이픈·밑줄이어야 합니다.');seen.add(id);return id};
- const vocabulary=arr(raw.vocabulary,'vocabulary',2000).map(v=>({id:uid(v.id),hanzi:str(v.hanzi,'한자',30),pinyin:str(v.pinyin,'병음',100),meaning:str(v.meaning,'뜻',150),category:str(v.category,'분류',30),example:typeof v.example==='string'&&v.example.length<=300?v.example:'',translation:typeof v.translation==='string'&&v.translation.length<=300?v.translation:'',stage:num(v.stage,'기억 단계',0,5),due:date(v.due)}));const ids=new Set(vocabulary.map(v=>v.id));
+ const optional=(v,label,max)=>v===undefined?'':(typeof v==='string'&&v.length<=max?v.trim():fail(`${label}: ${max}자 이하 문자열이 필요합니다.`));
+ const vocabulary=arr(raw.vocabulary,'vocabulary',2000).map(v=>({id:uid(v.id),hanzi:str(v.hanzi,'한자',30),pinyin:str(v.pinyin,'병음',100),koreanPronunciation:optional(v.koreanPronunciation,'한국어 발음 근사치',200),toneNotes:optional(v.toneNotes,'성조 설명',500),wordBreakdown:optional(v.wordBreakdown,'단어별 뜻',1000),meaning:str(v.meaning,'뜻',150),category:str(v.category,'분류',30),example:typeof v.example==='string'&&v.example.length<=300?v.example:'',translation:typeof v.translation==='string'&&v.translation.length<=300?v.translation:'',stage:num(v.stage,'기억 단계',0,5),due:date(v.due)}));const ids=new Set(vocabulary.map(v=>v.id));
  const lessons=arr(raw.lessons,'lessons',100).map(l=>{if(!['입문','초급','중급'].includes(l.level))fail('수업 레벨은 입문·초급·중급 중 하나입니다.');let words=arr(l.wordIds,'wordIds',200).map(id=>{if(!ids.has(id))fail('수업에서 존재하지 않는 단어를 참조합니다.');return id});if(new Set(words).size!==words.length)fail('수업의 단어 ID가 중복됩니다.');return {id:uid(l.id),title:str(l.title,'수업명',60),description:str(l.description,'설명',250),level:l.level,topic:str(l.topic,'주제',30),minutes:num(l.minutes,'수업 시간',1,120),progress:num(l.progress,'진도',0,100),symbol:str(l.symbol,'아이콘 한자',2),wordIds:words}});
  const activity={};if(!raw.activity||Array.isArray(raw.activity)||typeof raw.activity!=='object')fail('activity 객체가 필요합니다.');Object.entries(raw.activity).forEach(([k,v])=>activity[date(k)]=num(v,'학습 시간',0,1440));
  const results=arr(raw.results,'results',10000).map(r=>({date:date(r.date),lessonId:typeof r.lessonId==='string'?r.lessonId.slice(0,70):'',correct:num(r.correct,'정답 수',0,200),total:num(r.total,'문항 수',1,200)}));if(results.some(r=>r.correct>r.total))fail('정답 수는 문항 수보다 클 수 없습니다.');return {schemaVersion:1,settings,vocabulary,lessons,activity,results};
@@ -19,4 +20,15 @@ export function summary(data,today=dateKey()){
 }
 export function schedule(word,rating,today=dateKey()){
  if(!['again','good','easy'].includes(rating))throw new Error('잘못된 복습 평가');const steps=[1,3,7,14,30];if(rating==='again')return {...word,stage:0,due:today};if(rating==='good')return {...word,due:dayAfter(1,new Date(today+'T12:00:00'))};return {...word,stage:Math.min(5,word.stage+1),due:dayAfter(steps[Math.min(word.stage,4)],new Date(today+'T12:00:00'))};
+}
+
+
+export function enrichExisting(data,seed){
+ const next=structuredClone(data);
+ next.vocabulary=next.vocabulary.map(w=>{const base=seed.vocabulary.find(s=>s.id===w.id&&s.hanzi===w.hanzi&&s.pinyin===w.pinyin);if(!base)return w;for(const key of ['koreanPronunciation','toneNotes','wordBreakdown'])if(!w[key])w[key]=base[key];return w});
+ return validate(next);
+}
+export function addTravelPack(data,seed){
+ const next=enrichExisting(data,seed);for(const w of seed.vocabulary.filter(w=>w.id.startsWith('travel')))if(!next.vocabulary.some(v=>v.id===w.id))next.vocabulary.push(structuredClone(w));
+ for(const l of seed.lessons.filter(l=>l.id.startsWith('shanghai')))if(!next.lessons.some(v=>v.id===l.id||next.vocabulary.some(w=>w.id===l.id)))next.lessons.push(structuredClone(l));return validate(next);
 }

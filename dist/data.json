@@ -14,7 +14,10 @@
       "translation": "안녕하세요. 만나서 반가워요.",
       "id": "w01",
       "stage": 2,
-      "due": "2026-10-31"
+      "due": "2026-10-31",
+      "koreanPronunciation": "니 하오",
+      "toneNotes": "3-3 → 2-3 (연속 3성 변조)",
+      "wordBreakdown": "你好 = 안녕하세요"
     },
     {
       "hanzi": "谢谢",
@@ -25,7 +28,10 @@
       "translation": "도와주셔서 감사합니다.",
       "id": "w02",
       "stage": 2,
-      "due": "2026-10-31"
+      "due": "2026-10-31",
+      "koreanPronunciation": "셰 셰",
+      "toneNotes": "4-0",
+      "wordBreakdown": "谢谢 = 감사합니다"
     },
     {
       "hanzi": "再见",
@@ -36,7 +42,10 @@
       "translation": "내일 만나요, 안녕!",
       "id": "w03",
       "stage": 2,
-      "due": "2026-10-31"
+      "due": "2026-10-31",
+      "koreanPronunciation": "짜이 찌엔",
+      "toneNotes": "4-4",
+      "wordBreakdown": "再见 = 안녕히 가세요"
     },
     {
       "hanzi": "请",
@@ -47,7 +56,10 @@
       "translation": "앉으세요.",
       "id": "w04",
       "stage": 2,
-      "due": "2026-10-31"
+      "due": "2026-10-31",
+      "koreanPronunciation": "칭",
+      "toneNotes": "3",
+      "wordBreakdown": "请 = ~해 주세요 / 부디"
     },
     {
       "hanzi": "对不起",
@@ -58,7 +70,10 @@
       "translation": "미안해요. 늦었어요.",
       "id": "w05",
       "stage": 1,
-      "due": "2026-10-27"
+      "due": "2026-10-27",
+      "koreanPronunciation": "뚜이 부 치",
+      "toneNotes": "4-0-3",
+      "wordBreakdown": "对不起 = 미안합니다"
     },
     {
       "hanzi": "朋友",
@@ -69,7 +84,10 @@
       "translation": "그는 제 친구예요.",
       "id": "w06",
       "stage": 1,
-      "due": "2026-10-27"
+      "due": "2026-10-27",
+      "koreanPronunciation": "펑 여우",
+      "toneNotes": "2-0",
+      "wordBreakdown": "朋友 = 친구"
     },
     {
       "hanzi": "咖啡",
@@ -80,7 +98,10 @@
       "translation": "커피를 마시고 싶어요.",
       "id": "w07",
       "stage": 1,
-      "due": "2026-10-27"
+      "due": "2026-10-27",
+      "koreanPronunciation": "카 페이",
+      "toneNotes": "1-1",
+      "wordBreakdown": "咖啡 = 커피"
     },
     {
       "hanzi": "茶",
@@ -91,7 +112,10 @@
       "translation": "차 한 잔 주세요.",
       "id": "w08",
       "stage": 1,
-      "due": "2026-10-27"
+      "due": "2026-10-27",
+      "koreanPronunciation": "차",
+      "toneNotes": "2",
+      "wordBreakdown": "茶 = 차"
     },
     {
       "hanzi": "水",
@@ -102,7 +126,10 @@
       "translation": "물을 마시고 싶어요.",
       "id": "w09",
       "stage": 1,
-      "due": "2026-10-27"
+      "due": "2026-10-27",
+      "koreanPronunciation": "쉐이",
+      "toneNotes": "3",
+      "wordBreakdown": "水 = 물"
     },
     {
       "hanzi": "多少钱",
@@ -113,7 +140,10 @@
       "translation": "이것은 얼마예요?",
       "id": "w10",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "뚜어 샤오 치엔",
+      "toneNotes": "1-0-2",
+      "wordBreakdown": "多少钱 = 얼마예요"
     },
     {
       "hanzi": "喜欢",
@@ -124,7 +154,10 @@
       "translation": "저는 중국어 공부를 좋아해요.",
       "id": "w11",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "시 환",
+      "toneNotes": "3-0",
+      "wordBreakdown": "喜欢 = 좋아하다"
     },
     {
       "hanzi": "学习",
@@ -135,7 +168,10 @@
       "translation": "우리 함께 공부해요.",
       "id": "w12",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "쉐 시",
+      "toneNotes": "2-2",
+      "wordBreakdown": "学习 = 공부하다 / 학습"
     },
     {
       "hanzi": "今天",
@@ -146,7 +182,10 @@
       "translation": "오늘 날씨가 좋아요.",
       "id": "w13",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "찐 티엔",
+      "toneNotes": "1-1",
+      "wordBreakdown": "今天 = 오늘"
     },
     {
       "hanzi": "明天",
@@ -157,7 +196,10 @@
       "translation": "우리 내일 만나요.",
       "id": "w14",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "밍 티엔",
+      "toneNotes": "2-1",
+      "wordBreakdown": "明天 = 내일"
     },
     {
       "hanzi": "医院",
@@ -168,7 +210,10 @@
       "translation": "병원이 어디에 있나요?",
       "id": "w15",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "이 위엔",
+      "toneNotes": "1-4",
+      "wordBreakdown": "医院 = 병원"
     },
     {
       "hanzi": "医生",
@@ -179,7 +224,10 @@
       "translation": "그녀는 의사예요.",
       "id": "w16",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "이 셩",
+      "toneNotes": "1-1",
+      "wordBreakdown": "医生 = 의사"
     },
     {
       "hanzi": "健康",
@@ -190,7 +238,10 @@
       "translation": "건강하시기를 바라요!",
       "id": "w17",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "찌엔 캉",
+      "toneNotes": "4-1",
+      "wordBreakdown": "健康 = 건강하다 / 건강"
     },
     {
       "hanzi": "休息",
@@ -201,7 +252,10 @@
       "translation": "푹 쉬세요.",
       "id": "w18",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "시우 시",
+      "toneNotes": "1-0",
+      "wordBreakdown": "休息 = 쉬다 / 휴식"
     },
     {
       "hanzi": "车站",
@@ -212,7 +266,10 @@
       "translation": "정류장이 어디에 있나요?",
       "id": "w19",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "처 쫜",
+      "toneNotes": "1-4",
+      "wordBreakdown": "车站 = 정류장 / 역"
     },
     {
       "hanzi": "地铁",
@@ -223,7 +280,10 @@
       "translation": "저는 지하철을 타고 가요.",
       "id": "w20",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "띠 티에",
+      "toneNotes": "4-3",
+      "wordBreakdown": "地铁 = 지하철"
     },
     {
       "hanzi": "机场",
@@ -234,7 +294,10 @@
       "translation": "우리는 공항에 가요.",
       "id": "w21",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "찌 창",
+      "toneNotes": "1-3",
+      "wordBreakdown": "机场 = 공항"
     },
     {
       "hanzi": "左边",
@@ -245,7 +308,10 @@
       "translation": "왼쪽으로 가세요.",
       "id": "w22",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "쭈어 비엔",
+      "toneNotes": "3-0",
+      "wordBreakdown": "左边 = 왼쪽"
     },
     {
       "hanzi": "名字",
@@ -256,7 +322,10 @@
       "translation": "이름이 무엇인가요?",
       "id": "w23",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "밍 쯔",
+      "toneNotes": "2-0",
+      "wordBreakdown": "名字 = 이름"
     },
     {
       "hanzi": "韩国",
@@ -267,7 +336,220 @@
       "translation": "저는 한국에서 왔어요.",
       "id": "w24",
       "stage": 0,
-      "due": "2026-10-28"
+      "due": "2026-10-28",
+      "koreanPronunciation": "한 궈",
+      "toneNotes": "2-2",
+      "wordBreakdown": "韩国 = 한국"
+    },
+    {
+      "id": "travel01",
+      "hanzi": "请问，行李在哪里取？",
+      "pinyin": "qǐng wèn, xíngli zài nǎlǐ qǔ?",
+      "koreanPronunciation": "칭 원, 싱 리 짜이 나 리 취",
+      "toneNotes": "3-4 / 2-0 / 4 / 3-3 / 3 · 哪里의 3-3은 2-3으로 변조",
+      "wordBreakdown": "请问=실례지만 묻겠습니다 | 行李=짐 | 在=~에 | 哪里=어디 | 取=찾다",
+      "meaning": "실례합니다, 짐은 어디서 찾나요?",
+      "category": "공항",
+      "example": "请问，行李在哪里取？",
+      "translation": "실례합니다, 짐은 어디서 찾나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel02",
+      "hanzi": "我要去浦东机场。",
+      "pinyin": "wǒ yào qù Pǔdōng jīchǎng.",
+      "koreanPronunciation": "워 야오 취 푸 똥 찌 창",
+      "toneNotes": "3-4-4 / 3-1 / 1-3",
+      "wordBreakdown": "我=나 | 要=~하려고 하다 | 去=가다 | 浦东机场=푸둥공항",
+      "meaning": "푸둥공항에 가려고 해요.",
+      "category": "공항",
+      "example": "我要去浦东机场。",
+      "translation": "푸둥공항에 가려고 해요.",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel03",
+      "hanzi": "出口在哪里？",
+      "pinyin": "chūkǒu zài nǎlǐ?",
+      "koreanPronunciation": "추 커우 짜이 나 리",
+      "toneNotes": "1-3 / 4 / 3-3 → 2-3",
+      "wordBreakdown": "出口=출구 | 在=~에 있다 | 哪里=어디",
+      "meaning": "출구가 어디인가요?",
+      "category": "공항",
+      "example": "出口在哪里？",
+      "translation": "출구가 어디인가요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel04",
+      "hanzi": "去外滩怎么走？",
+      "pinyin": "qù Wàitān zěnme zǒu?",
+      "koreanPronunciation": "취 와이 탄 쩐 머 쩌우",
+      "toneNotes": "4 / 4-1 / 3-0 / 3",
+      "wordBreakdown": "去=가다 | 外滩=와이탄 | 怎么=어떻게 | 走=가다·걷다",
+      "meaning": "와이탄에 어떻게 가나요?",
+      "category": "교통",
+      "example": "去外滩怎么走？",
+      "translation": "와이탄에 어떻게 가나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel05",
+      "hanzi": "这趟地铁到虹桥站吗？",
+      "pinyin": "zhè tàng dìtiě dào Hóngqiáo zhàn ma?",
+      "koreanPronunciation": "쩌 탕 띠 티에 따오 훙 치아오 쫜 마",
+      "toneNotes": "4-4 / 4-3 / 4 / 2-2 / 4 / 0",
+      "wordBreakdown": "这=이 | 趟=운행 회수를 세는 말 | 地铁=지하철 | 到=도착하다 | 虹桥站=훙차오역 | 吗=의문 조사",
+      "meaning": "이 지하철은 훙차오역에 가나요?",
+      "category": "교통",
+      "example": "这趟地铁到虹桥站吗？",
+      "translation": "이 지하철은 훙차오역에 가나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel06",
+      "hanzi": "请在这里停车。",
+      "pinyin": "qǐng zài zhèlǐ tíngchē.",
+      "koreanPronunciation": "칭 짜이 쩌 리 팅 처",
+      "toneNotes": "3-4 / 4-3 / 2-1",
+      "wordBreakdown": "请=~해 주세요 | 在=~에서 | 这里=여기 | 停车=차를 세우다",
+      "meaning": "여기에 세워 주세요.",
+      "category": "교통",
+      "example": "请在这里停车。",
+      "translation": "여기에 세워 주세요.",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel07",
+      "hanzi": "请给我菜单。",
+      "pinyin": "qǐng gěi wǒ càidān.",
+      "koreanPronunciation": "칭 게이 워 차이 딴",
+      "toneNotes": "3-3-3 / 4-1 · 연속 3성은 문장 끊기에 따라 앞 음절이 상승",
+      "wordBreakdown": "请=~해 주세요 | 给=주다 | 我=나에게 | 菜单=메뉴판",
+      "meaning": "메뉴판을 주세요.",
+      "category": "음식점",
+      "example": "请给我菜单。",
+      "translation": "메뉴판을 주세요.",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel08",
+      "hanzi": "不要放辣椒。",
+      "pinyin": "bú yào fàng làjiāo.",
+      "koreanPronunciation": "부 야오 팡 라 찌아오",
+      "toneNotes": "2-4-4 / 4-1 · 不는 4성 앞에서 2성 (기본 bù)",
+      "wordBreakdown": "不要=~하지 말다 | 放=넣다 | 辣椒=고추",
+      "meaning": "고추를 넣지 말아 주세요.",
+      "category": "음식점",
+      "example": "不要放辣椒。",
+      "translation": "고추를 넣지 말아 주세요.",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel09",
+      "hanzi": "买单，谢谢。",
+      "pinyin": "mǎidān, xièxie.",
+      "koreanPronunciation": "마이 딴, 셰 셰",
+      "toneNotes": "3-1 / 4-0",
+      "wordBreakdown": "买单=계산하다 | 谢谢=감사합니다",
+      "meaning": "계산해 주세요, 감사합니다.",
+      "category": "음식점",
+      "example": "买单，谢谢。",
+      "translation": "계산해 주세요, 감사합니다.",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel10",
+      "hanzi": "这个多少钱？",
+      "pinyin": "zhège duōshao qián?",
+      "koreanPronunciation": "쩌 거 뚜어 샤오 치엔",
+      "toneNotes": "4-0 / 1-0 / 2",
+      "wordBreakdown": "这个=이것 | 多少=얼마 | 钱=돈",
+      "meaning": "이것은 얼마인가요?",
+      "category": "쇼핑",
+      "example": "这个多少钱？",
+      "translation": "이것은 얼마인가요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel11",
+      "hanzi": "可以试穿吗？",
+      "pinyin": "kěyǐ shìchuān ma?",
+      "koreanPronunciation": "커 이 쓰 촨 마",
+      "toneNotes": "3-3 → 2-3 / 4-1 / 0",
+      "wordBreakdown": "可以=~해도 된다 | 试穿=입어 보다 | 吗=의문 조사",
+      "meaning": "입어 봐도 되나요?",
+      "category": "쇼핑",
+      "example": "可以试穿吗？",
+      "translation": "입어 봐도 되나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel12",
+      "hanzi": "可以用信用卡吗？",
+      "pinyin": "kěyǐ yòng xìnyòngkǎ ma?",
+      "koreanPronunciation": "커 이 융 신 융 카 마",
+      "toneNotes": "3-3 → 2-3 / 4 / 4-4-3 / 0",
+      "wordBreakdown": "可以=~할 수 있다 | 用=사용하다 | 信用卡=신용카드 | 吗=의문 조사",
+      "meaning": "신용카드를 사용할 수 있나요?",
+      "category": "쇼핑",
+      "example": "可以用信用卡吗？",
+      "translation": "신용카드를 사용할 수 있나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel13",
+      "hanzi": "美术馆需要预约吗？",
+      "pinyin": "měishùguǎn xūyào yùyuē ma?",
+      "koreanPronunciation": "메이 쑤 관 쉬 야오 위 위에 마",
+      "toneNotes": "3-4-3 / 1-4 / 4-1 / 0",
+      "wordBreakdown": "美术馆=미술관 | 需要=필요하다 | 预约=예약하다 | 吗=의문 조사",
+      "meaning": "미술관은 예약이 필요한가요?",
+      "category": "미술관",
+      "example": "美术馆需要预约吗？",
+      "translation": "미술관은 예약이 필요한가요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel14",
+      "hanzi": "请问，可以拍照吗？",
+      "pinyin": "qǐng wèn, kěyǐ pāizhào ma?",
+      "koreanPronunciation": "칭 원, 커 이 파이 쨔오 마",
+      "toneNotes": "3-4 / 3-3 → 2-3 / 1-4 / 0",
+      "wordBreakdown": "请问=실례지만 묻겠습니다 | 可以=~해도 된다 | 拍照=사진 찍다 | 吗=의문 조사",
+      "meaning": "실례합니다, 사진을 찍어도 되나요?",
+      "category": "미술관",
+      "example": "请问，可以拍照吗？",
+      "translation": "실례합니다, 사진을 찍어도 되나요?",
+      "stage": 0,
+      "due": "2026-10-29"
+    },
+    {
+      "id": "travel15",
+      "hanzi": "有中文导览吗？",
+      "pinyin": "yǒu Zhōngwén dǎolǎn ma?",
+      "koreanPronunciation": "여우 쫑 원 따오 란 마",
+      "toneNotes": "3 / 1-2 / 3-3 → 2-3 / 0",
+      "wordBreakdown": "有=있다 | 中文=중국어 | 导览=관람 안내·해설 | 吗=의문 조사",
+      "meaning": "중국어 해설이 있나요?",
+      "category": "미술관",
+      "example": "有中文导览吗？",
+      "translation": "중국어 해설이 있나요?",
+      "stage": 0,
+      "due": "2026-10-29"
     }
   ],
   "lessons": [
@@ -366,6 +648,81 @@
         "w20",
         "w21",
         "w22"
+      ]
+    },
+    {
+      "id": "shanghai1",
+      "title": "상하이 여행 · 공항",
+      "description": "공항에서 쓰는 표준중국어 표현. 음성을 듣고 병음과 성조를 확인하세요.",
+      "level": "초급",
+      "topic": "공항",
+      "minutes": 10,
+      "progress": 0,
+      "symbol": "机",
+      "wordIds": [
+        "travel01",
+        "travel02",
+        "travel03"
+      ]
+    },
+    {
+      "id": "shanghai2",
+      "title": "상하이 여행 · 교통",
+      "description": "교통에서 쓰는 표준중국어 표현. 음성을 듣고 병음과 성조를 확인하세요.",
+      "level": "초급",
+      "topic": "교통",
+      "minutes": 10,
+      "progress": 0,
+      "symbol": "行",
+      "wordIds": [
+        "travel04",
+        "travel05",
+        "travel06"
+      ]
+    },
+    {
+      "id": "shanghai3",
+      "title": "상하이 여행 · 음식점",
+      "description": "음식점에서 쓰는 표준중국어 표현. 음성을 듣고 병음과 성조를 확인하세요.",
+      "level": "초급",
+      "topic": "음식점",
+      "minutes": 10,
+      "progress": 0,
+      "symbol": "食",
+      "wordIds": [
+        "travel07",
+        "travel08",
+        "travel09"
+      ]
+    },
+    {
+      "id": "shanghai4",
+      "title": "상하이 여행 · 쇼핑",
+      "description": "쇼핑에서 쓰는 표준중국어 표현. 음성을 듣고 병음과 성조를 확인하세요.",
+      "level": "초급",
+      "topic": "쇼핑",
+      "minutes": 10,
+      "progress": 0,
+      "symbol": "买",
+      "wordIds": [
+        "travel10",
+        "travel11",
+        "travel12"
+      ]
+    },
+    {
+      "id": "shanghai5",
+      "title": "상하이 여행 · 미술관",
+      "description": "미술관에서 쓰는 표준중국어 표현. 음성을 듣고 병음과 성조를 확인하세요.",
+      "level": "초급",
+      "topic": "미술관",
+      "minutes": 10,
+      "progress": 0,
+      "symbol": "艺",
+      "wordIds": [
+        "travel13",
+        "travel14",
+        "travel15"
       ]
     }
   ],
