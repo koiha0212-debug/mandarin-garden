@@ -22,7 +22,9 @@ jobs:
         with:
           node-version: '22'
       - name: Validate JSON and review rules
-        run: node check-model.mjs
+        run: |
+          node check-model.mjs
+          node check-daily-word.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
