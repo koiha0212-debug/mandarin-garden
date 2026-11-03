@@ -4,3 +4,5 @@
 
 
 .pronunciation{font-size:12px;line-height:1.8;color:#49654f;overflow-wrap:anywhere;margin:10px 0;text-align:left;max-width:100%}.pronunciation span{display:block}.pronunciation p{font-size:12px;margin:6px 0;color:#637563}td .pronunciation{min-width:240px}td strong{white-space:normal}.pronunciation-guide{padding:20px;margin-top:24px;background:#eaf0e9;border-radius:12px;font-size:12px}.pronunciation-guide p{margin:8px 0}.quiz-prompt{overflow-wrap:anywhere;font-size:clamp(24px,5vw,48px)}.review-card .word-hanzi{overflow-wrap:anywhere;font-size:clamp(28px,5vw,66px)}
+
+.speaking-dialog{width:min(620px,calc(100vw - 24px));max-height:90dvh;overflow-y:auto;box-sizing:border-box}.speaking-text{font-size:1.8rem;overflow-wrap:anywhere}.speaking-hints{line-height:1.8}.speaking-actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.speaking-actions button,.speaking-dialog select,.speaking-dialog>button{min-height:44px}.speaking-dialog [data-status]{font-weight:700;color:#315b3d;min-height:1.5em}.speaking-dialog p{line-height:1.7}.speaking-dialog button:disabled{opacity:.5;cursor:not-allowed}
